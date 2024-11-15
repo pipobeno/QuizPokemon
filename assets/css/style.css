@@ -1,0 +1,87 @@
+@font-face {
+    font-family: pokefont;
+    src: url("../fonts/Pokemon\ Solid.ttf");
+}
+.hidden {
+    display: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: #ff4f4f;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#gameContainer {
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 3px solid #3B4CCA;
+    padding: 40px;
+}
+#nameContainer {
+    font-family: pokefont;
+    color: #3B4CCA;
+}
+h1 {
+    font-family: pokefont;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: #3B4CCA;
+    margin: auto;
+    padding: 0%;
+}
+#imageContainer img{
+    width: 300px;
+}
+#questionContainer {
+    font-family: pokefont;
+    font-size: 30px;
+    color: #3a3a3a;
+}
+#submitButton {
+    font-family: pokefont;
+    font-size: 25px;
+    color: #eee561;
+    background-color: #3B4CCA;
+    border: solid 3px #d40000;
+    border-radius: 60px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+    padding-inline: 50px;
+    margin: auto;
+    width: fit-content;
+    letter-spacing: 2px;
+    
+}
+#submitButton:hover {
+    background-color: #eee561;
+    color: #3B4CCA;
+    border: solid 3px #d40000;
+}
+#errorMessage {
+    font-family: pokefont;
+    color: #d40000;
+    font-size:  15px;
+}
+#submitContainer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #3B4CCA;
+    border: solid 3px #eee561;
+    border-radius: 60px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+    padding-inline: 50px;
+    margin: auto;
+    width: fit-content;
+    letter-spacing: 2px;
+}
